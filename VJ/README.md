@@ -1,2 +1,3 @@
-# A00966723_TC2005B.
-Assignments for the course TC2005B
+# Video games
+
+Assignments for the Video games module of course TC2005B
