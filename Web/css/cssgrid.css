@@ -1,0 +1,27 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: grey;
+}
+
+.grid-container{
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-item{
+    border: 3px white solid;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+#grid-item-1{
+    grid-column: 2;
+    grid-row: 2 / span 3;
+}
